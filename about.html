@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — IT Awareness Club</title>
+  <meta name="description" content="Our history, objectives, organization structure, and generations of members.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — IT Awareness Club">
+  <meta property="og:description" content="Our history, objectives, organization structure, and generations of members.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo/logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="preloader" aria-hidden="true"><div class="preloader__spinner"></div></div>
+
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" aria-label="IT Awareness Club — Home">
+        <strong style="font-family: var(--font-heading); color: var(--color-primary);">IT Awareness Club</strong>
+      </a>
+      <button class="navbar__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="achievements.html">What We Achieved</a></li>
+        <li><a href="about.html" class="active" aria-current="page">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="container reveal">
+      <h1>About the Club</h1>
+      <h2>Our History</h2>
+      <p>Founded in <strong><!-- TODO: year --></strong>, the IT Awareness Club started as a small
+         study group and has grown into one of the most active student organizations on campus.</p>
+    </section>
+
+    <section class="container reveal">
+      <h2>Our Objectives</h2>
+      <ul class="reveal-stagger">
+        <li style="--i:0;">Promote digital literacy among students</li>
+        <li style="--i:1;">Organize hands-on technology workshops</li>
+        <li style="--i:2;">Represent the university in IT competitions</li>
+        <li style="--i:3;">Build a supportive peer-learning community</li>
+      </ul>
+    </section>
+
+    <section class="container reveal">
+      <h2>Organization Structure</h2>
+      <p>President → Vice President → Team Leads → Members</p>
+      <!-- TODO: replace with the CSS org-chart component -->
+    </section>
+
+    <section class="container">
+      <h2>Generations of Members</h2>
+      <!-- Tabs + grid rendered by js/about.js from data/members.json -->
+      <div class="gen-tabs" id="gen-tabs" role="tablist" aria-label="Member generations"></div>
+      <div class="grid gen-grid" id="gen-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <h2 style="color:#fff;">IT Awareness Club</h2>
+      <p>Learn. Build. Share.</p>
+      <p>Email: <a href="mailto:club@example.edu">club@example.edu</a></p>
+      <p>
+        <a href="#" aria-label="Facebook">Facebook</a> ·
+        <a href="#" aria-label="Telegram">Telegram</a> ·
+        <a href="#" aria-label="GitHub">GitHub</a>
+      </p>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a> ·
+        <a href="activities.html">Activities</a> ·
+        <a href="achievements.html">What We Achieved</a> ·
+        <a href="about.html">About</a>
+      </nav>
+      <p>© <span id="footer-year"></span> IT Awareness Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin:auto;"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/reveal.js" defer></script>
+  <script src="js/lightbox.js" defer></script>
+  <script src="js/about.js" defer></script>
+</body>
+</html>

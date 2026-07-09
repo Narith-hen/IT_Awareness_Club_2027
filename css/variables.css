@@ -1,0 +1,31 @@
+/* ============================================
+   Design tokens — change the theme here only
+   ============================================ */
+:root {
+  /* Colors */
+  --color-primary: #1E3A8A;
+  --color-primary-dark: #172554;
+  --color-accent: #06B6D4;
+  --color-accent-light: #67E8F9;
+  --color-bg: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-text: #0F172A;
+  --color-text-muted: #64748B;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Shape & elevation */
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-soft: 0 4px 16px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 12px 28px rgba(15, 23, 42, 0.14);
+
+  /* Motion & layout */
+  --transition: 0.25s ease;
+  --container-max: 1200px;
+  --section-padding: clamp(3rem, 8vw, 6rem);
+}

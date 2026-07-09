@@ -1,0 +1,48 @@
+/* Reset + global element styles */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+h1, h2, h3, h4 { font-family: var(--font-heading); line-height: 1.25; color: var(--color-primary); }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.5rem, 3.5vw, 2.25rem); }
+h3 { font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
+
+p { max-width: 65ch; }
+img { max-width: 100%; display: block; }
+a { color: var(--color-accent); }
+ul { list-style-position: inside; }
+
+.container { max-width: var(--container-max); margin-inline: auto; padding-inline: 1.25rem; }
+section { padding-block: var(--section-padding); }
+
+/* Accessibility */
+.skip-link {
+  position: absolute; top: -100%; left: 1rem;
+  background: var(--color-primary); color: #fff;
+  padding: 0.5rem 1rem; border-radius: var(--radius-md); z-index: 999;
+}
+.skip-link:focus { top: 1rem; }
+
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px;
+  clip-path: inset(50%); overflow: hidden; white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

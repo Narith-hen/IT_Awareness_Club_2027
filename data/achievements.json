@@ -1,0 +1,23 @@
+[
+  {
+    "year": 2025,
+    "category": "Competition",
+    "title": "1st Place — University Hackathon",
+    "description": "Team of 4 built a campus navigation app in 24 hours.",
+    "image": ""
+  },
+  {
+    "year": 2025,
+    "category": "Award",
+    "title": "Best Student Club Award",
+    "description": "Recognized by the university for outstanding community impact.",
+    "image": ""
+  },
+  {
+    "year": 2024,
+    "category": "Milestone",
+    "title": "100 Active Members",
+    "description": "The club reached one hundred registered members.",
+    "image": ""
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "web-workshop-2026",
+    "title": "Web Development Workshop",
+    "category": "Workshop",
+    "date": "2026-03-15",
+    "description": "Hands-on HTML, CSS, and JavaScript basics for beginners.",
+    "image": "assets/images/activities/web-workshop-2026.webp",
+    "featured": true
+  },
+  {
+    "id": "cyber-awareness-2026",
+    "title": "Cybersecurity Awareness Day",
+    "category": "Community",
+    "date": "2026-02-10",
+    "description": "Campus event teaching students how to stay safe online.",
+    "image": "assets/images/activities/cyber-awareness-2026.webp",
+    "featured": true
+  },
+  {
+    "id": "code-challenge-2025",
+    "title": "Annual Code Challenge",
+    "category": "Competition",
+    "date": "2025-11-22",
+    "description": "Members competed to solve algorithm puzzles in teams.",
+    "image": "assets/images/activities/code-challenge-2025.webp",
+    "featured": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "2026": [
+    { "name": "Member One", "role": "President", "photo": "" },
+    { "name": "Member Two", "role": "Vice President", "photo": "" },
+    { "name": "Member Three", "role": "Team Lead", "photo": "" },
+    { "name": "Member Four", "role": "Member", "photo": "" },
+    { "name": "Member Five", "role": "Member", "photo": "" }
+  ],
+  "2025": [
+    { "name": "Member One", "role": "President", "photo": "" },
+    { "name": "Member Two", "role": "Vice President", "photo": "" },
+    { "name": "Member Three", "role": "Member", "photo": "" },
+    { "name": "Member Four", "role": "Member", "photo": "" },
+    { "name": "Member Five", "role": "Member", "photo": "" }
+  ]
+}
